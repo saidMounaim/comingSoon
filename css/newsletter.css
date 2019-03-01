@@ -1,0 +1,77 @@
+
+#newsletter p{
+  font-size: 24px;
+  color:#FFFFFF;
+  margin-top:10px;
+  font-weight:500;
+}
+.inline-form{
+  margin:27px 20px 0;
+}
+.inline-form input{
+  display:inline-block;
+  border:none;
+  outline:none;
+  margin:5px 4px;
+  font-size:14px;
+  max-width:100%;
+  padding:12px 20px;
+  border-radius:30px;
+}
+
+input[type="email"]{
+  width:250px;
+}
+input[type="submit"]{
+  cursor: pointer;
+  background: #e64c65;
+  width:180px;
+  color:#FFFFFF;
+  text-align:center;
+  font-weight:400;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  background: #cc324b;
+}
+
+@media (max-width: 728px) {
+  .newsletter-box{
+    padding:80px 20px;
+  }
+  input[type="text"],
+  input[type="email"]{
+    width:210px;
+  }
+  input[type="submit"]{
+    width:250px;
+  }
+}
+
+/* Landscape Phone */
+@media all and (min-width: 400px) {
+  .newsletter-box{
+    padding:0px 20px;
+  }
+#newsletter p{
+  font-size: 20px;
+  color:#FFFFFF;
+  margin-top:10px;
+  font-weight:500;
+}
+}
+/* Landscape Phone */
+@media all and (max-width: 400px) {
+  .newsletter-box{
+    padding:0px 20px;
+  }
+  #newsletter p{
+  font-size:17px;
+  color:#FFFFFF;
+  margin-top:10px;
+  font-weight:500;
+}
+
+}
